@@ -1,0 +1,63 @@
+/* Importa la fuente Outfit de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'outfit', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    height: 580px;
+    color: #000000;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* Eliminar el margen alrededor de la figura */
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 350px;
+    /* Ajustar el tamaño de la imagen */
+    height: 380px;
+    border-radius: 15px;
+    margin: 0;
+    /* Eliminar el margen alrededor de la imagen */
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.card span {
+    color: hsl(212, 15%, 80%);
+    margin: 0;
+}
+
+
+
